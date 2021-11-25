@@ -24,9 +24,10 @@
         </div>
         <div class="popup_form">
           <form class="feedback_form">
+
             <div class="form_column">
-              <label class="label_form_select">
-                <p>Как часто вы заходите на сайт?</p>
+              <p>Как часто вы заходите на сайт?</p>
+              <label class="label_form_select" >             
                 <select class="feedback" required="required">
                   <option value="">Почти каждый день</option>
                   <option>Раз в несколько дней</option>
@@ -35,31 +36,29 @@
                 </select>
               </label>
             </div>
-            <div class="form_column">
-              <form>
-                <p>Вы подписаны на e-mail рассылку?</p>
-                <label>
-                  <input class="radio_q" type="radio" name="question" required>
-                  <span class="radio_text"> Да </span>
-                </label>
 
-                <label>
-                  <input class="radio_q" type="radio" name="question" required>
-                  <span class="radio_text">Нет</span>
-                </label>
-              </form>
+            <div class="form_column">           
+              <p>Вы подписаны на e-mail рассылку?</p>
+              <label>
+                <input class="radio_q" type="radio" name="question" required>
+                <span class="radio_text"> Да </span>
+              </label>
+              <label>
+                <input class="radio_q" type="radio" name="question" required>
+                <span class="radio_text">Нет</span>
+              </label>             
             </div>
-            <div class="form_column">
-              <form>
-                <label>
-                  <p>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
-                  <textarea class="text_input" rows="3" cols="30" name="text" placeholder="Может, больше рецептов?"></textarea>
-                </label>
-                <div class="form_column">
-                  <button class="pupup_button">Отправить</button>
-                </div>
-              </form>
-            </div>
+
+            <div class="form_column">              
+              <p>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
+              <label>
+                <textarea class="text_input" rows="3" cols="30" name="text" placeholder="Может, больше рецептов?"></textarea>
+              </label>
+              
+              <div class="form_column">
+                <button class="pupup_button">Отправить</button>
+              </div>
+           </div>
           </form>
         </div>
       </div>
@@ -72,7 +71,7 @@
     <div class="container">
       <div class="header-layer">
         <div class="logo">
-          <a href="#0"><img src="svg/noemi-logo.svg" width=180px alt="Логотип компании Noemi"></a>
+          <a href="#0"><img src="svg/noemi-logo.svg" width=180 alt="Логотип компании Noemi"></a>
         </div>
         <nav class="menu">
           <div class="burger_menu">
@@ -151,6 +150,7 @@
           </div>
         </div>
       </div>
+    </div>  
   </aside>
 
   <!--Лента новостей-->
@@ -160,7 +160,7 @@
     <main class="content">
       <section class="topic">
         <div class="topic-img">
-          <img src="img/last-post1.jpg" width=100% alt="Песчанный пляж">
+          <img class="top_img" src="img/last-post1.jpg"  alt="Песчанный пляж">
         </div>
         <article class="post">
           <ul class="topic-tag">
@@ -172,7 +172,7 @@
                 проснуться на рассвете</a></h2>
           </div>
           <div class="info">
-            <time pubdate datetime="10.06.2019" class="date">10 июня 2019</time>
+            <time  datetime="2019-06-10" class="date">10 июня 2019</time>
             <p class="author">Неизвестный автор</p>
           </div>
           <div class="text">
@@ -183,7 +183,7 @@
 
       <section class="topic">
         <div class="topic-img">
-          <img src="img/last-post2.jpg" width=100% alt="Упражнения на берегу моря">
+          <img class="top_img" src="img/last-post2.jpg"  alt="Упражнения на берегу моря">
         </div>
         <article class="post">
           <ul class="topic-tag">
@@ -194,7 +194,7 @@
             <h2><a href="#0">Йога для начинающих в домашних условиях</a> </h2>
           </div>
           <div class="info">
-            <time pubdate datetime="10.06.2019" class="date">10 июня 2019</time>
+            <time  datetime="2019-06-10" class="date">10 июня 2019</time>
             <p class="author">Неизвестный автор</p>
           </div>
           <div class="text">
@@ -205,7 +205,7 @@
 
       <section class="topic">
         <div class="topic-img">
-          <img src="img/last-post3.jpg" width=100% alt="Музыкальный фестеваль">
+          <img class="top_img" src="img/last-post3.jpg"  alt="Музыкальный фестеваль">
         </div>
         <article class="post">
           <ul class="topic-tag">
@@ -215,12 +215,12 @@
             <h2><a href="#0">Лучшие музыкальные фестивали этого лета</a></h2>
           </div>
           <div class="info">
-            <time pubdate datetime="10.06.2019" class="date">10 июня 2019</time>
+            <time  datetime="2019-06-10" class="date">10 июня 2019</time>
             <p class="author">Неизвестный автор</p>
           </div>
           <div class="text">
             <p>
-              Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</br></br>
+              Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?<br><br>
               Мы составили список лучших летних фестивалей по всему миру.</p>
           </div>
         </article>
@@ -228,7 +228,7 @@
 
       <section class="topic">
         <div class="topic-img">
-          <img src="img/last-post4.jpg" width=100% alt="Накрытый стол">
+          <img  class="top_img" src="img/last-post4.jpg"  alt="Накрытый стол">
         </div>
         <article class="post">
           <ul class="topic-tag">
@@ -239,7 +239,7 @@
             <h2><a href="#0"> Наукоёмкий подход к кулинарии </a></h2>
           </div>
           <div class="info">
-            <time pubdate datetime="10.06.2019" class="date">10 июня 2019</time>
+            <time  datetime="2019-06-10" class="date">10 июня 2019</time>
             <p class="author">Неизвестный автор</p>
           </div>
           <div class="text">
@@ -250,7 +250,7 @@
 
       <section class="topic">
         <div class="topic-img">
-          <img src="img/last-post5.jpg" width=100% alt="Подушка на кровати">
+          <img class="top_img" src="img/last-post5.jpg"  alt="Подушка на кровати">
         </div>
         <article class="post">
           <ul class="topic-tag">
@@ -262,7 +262,7 @@
             <h2><a href="#0">Делаем модные принты на подушках для интерьера </a></h2>
           </div>
           <div class="info">
-            <time pubdate datetime="10.06.2019" class="date">10 июня 2019</time>
+            <time  datetime="2019-06-10" class="date">10 июня 2019</time>
             <p class="author">Неизвестный автор</p>
           </div>
           <div class="text">
@@ -280,10 +280,10 @@
       </div>
       <section class="news">
         <div class="news-img">
-          <img src="img/2.jpg" width=70px alt="Песчанный пляж">
+          <img src="img/2.jpg" width=70 alt="Песчанный пляж">
         </div>
         <div class="news-name">
-          <time pubdate datetime="14.06.2019" class="date">14 июня 2019</time>
+          <time  datetime="2019-06-14" class="date">14 июня 2019</time>
           <div class="news-title">
             <h2><a href="#0"> 10 мест, ради которых
                 стоит проснуться</a></h2>
@@ -293,10 +293,10 @@
 
       <section class="news">
         <div class="news-img">
-          <img src="img/151.jpg" width=70px alt="Йога на берегу">
+          <img src="img/151.jpg" width=70 alt="Йога на берегу">
         </div>
         <div class="news-name">
-          <time pubdate datetime="14.06.2019" class="date">14 июня 2019</time>
+          <time  datetime="2019-06-14" class="date">14 июня 2019</time>
           <div class="news-title">
             <h2><a href="#0">Йога для домашних</a></h2>
           </div>
@@ -305,10 +305,10 @@
 
       <section class="news">
         <div class="news-img">
-          <img src="img/45.jpg" width=70px alt="Уютная комната">
+          <img src="img/45.jpg" width=70 alt="Уютная комната">
         </div>
         <div class="news-name">
-          <time pubdate datetime="14.06.2019" class="date">14 июня 2019</time>
+          <time  datetime="2019-06-14" class="date">14 июня 2019</time>
           <div class="news-title">
             <h2><a href="#0"> как мы превратили
                 классное место в
@@ -319,10 +319,10 @@
 
       <section class="news">
         <div class="news-img">
-          <img src="img/501.jpg" width=70px alt="Накрытый стол">
+          <img src="img/501.jpg" width=70 alt="Накрытый стол">
         </div>
         <div class="news-name">
-          <time pubdate datetime="14.06.2019" class="date">14 июня 2019</time>
+          <time datetime="2019-06-14" class="date">14 июня 2019</time>
           <div class="news-title">
             <h2><a href="#0"> Кулинарный подход
                 к науке</a></h2>
@@ -332,10 +332,10 @@
 
       <section class="news">
         <div class="news-img">
-          <img src="img/7.jpg" width=70px alt="Девушки с причёсками">
+          <img src="img/7.jpg" width=70 alt="Девушки с причёсками">
         </div>
         <div class="news-name">
-          <time pubdate datetime="14.06.2019" class="date">14 июня 2019</time>
+          <time datetime="2019-06-14" class="date">14 июня 2019</time>
           <div class="news-title">
             <h2><a href="#0"> Лучшие прически для
                 распущенных волос</a></h2>
@@ -350,9 +350,9 @@
           <label class="search-label">
             <span class="form-hint">Поле поиска</span>
             <input type="search" class="search-field" placeholder="Найти...">
-            <button class="form-bottom"><span class="form-hint">Кнопка поиска</span></button>
           </label>
         </form>
+        <button class="form-bottom"><span class="form-hint">Кнопка поиска</span></button>
       </section>
 
       <!--Форма рассылки-->
@@ -509,11 +509,11 @@
   <footer class="social">
     <div class="social-block">
       <ul class="social-list">
-        <li class="social-item"><a href="#0" class="social-icon social-twitter"></a> <span class="form-hint">Профиль компании в Twitter</span> </li>
-        <li class="social-item"><a href="#0" class="social-icon social-painterest"></a> <span class="form-hint">Профиль компании в Painterestr</span> </li>
-        <li class="social-item"><a href="#0" class="social-icon social-facebook"></a> <span class="form-hint">Профиль компании в Facebook</span> </li>
-        <li class="social-item"><a href="#0" class="social-icon social-instagramm"></a> <span class="form-hint">Профиль компании в Instagramm</span> </li>
-        <li class="social-item"><a href="#0" class="social-icon social-tumblr"></a> <span class="form-hint">Профиль компании в Tumblr</span> </li>
+        <li class="social-item"><a href="#0" class="social-icon social-twitter"><span class="form-hint">Профиль компании в Twitter</span></a></li>
+        <li class="social-item"><a href="#0" class="social-icon social-painterest"><span class="form-hint">Профиль компании в Painterestr</span></a></li>
+        <li class="social-item"><a href="#0" class="social-icon social-facebook"> <span class="form-hint">Профиль компании в Facebook</span></a></li>
+        <li class="social-item"><a href="#0" class="social-icon social-instagramm"><span class="form-hint">Профиль компании в Instagramm</span></a></li>
+        <li class="social-item"><a href="#0" class="social-icon social-tumblr"> <span class="form-hint">Профиль компании в Tumblr</span></a></li>
       </ul>
     </div>
     <div class="copyright">
